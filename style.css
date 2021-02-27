@@ -1,0 +1,152 @@
+header{
+    width: 100%;
+    height: 50vh;
+    background: url(https://images.unsplash.com/photo-1526230427044-d092040d48dc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+      no-repeat 50% 50%;
+    background-size: cover;
+  
+}
+
+.mainImage
+{
+    left: 15px; width: 150px; position: absolute; top: 5px
+}
+
+.navbar-nav
+{
+    margin-left: auto
+}
+.navbar{
+    
+    position: fixed;
+    width: 100%;
+    line-height: 15px;
+}
+
+.nav-link 
+{   
+    margin-top: 2px;
+    font-family:fantasy;
+    font-size: 35px;
+    color: orange;
+}
+
+.nav-link:hover 
+{   
+    color: red;
+}
+
+
+.nav-item
+{
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+.TodaysOffer
+{
+    text-align: center;
+    background-color: rgb(54, 50, 50);
+    height: 65vh;
+    color:rgb(214, 206, 206);
+    font-family: fantasy;
+}
+
+.tamano
+{ 
+    transition:all .5s ease-in-out;
+    width: 90%;
+    transition: all 0.5s;
+}
+.tamano:hover
+{
+    width: 80%;
+    transition:all .5s ease-in-out;
+
+}
+
+.OurMenu
+{
+    text-align: center;
+    /*background-color: rgb(240, 225, 11);
+    
+    */
+    background-image:linear-gradient(to top,black, rgba(74, 74, 74, 0)), url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8dGFibGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    height: 100%;
+    color:rgb(214, 206, 206);
+    font-family: fantasy;
+    
+}
+
+.card-body
+{
+    background: -webkit-linear-gradient(yellow,red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+     color: tomato;
+}   
+
+
+.card{
+   
+    background: -webkit-linear-gradient(rgb(7, 235, 14),rgb(28, 55, 235));
+}
+
+
+.locals
+{
+    background-color: rgb(54, 50, 50);
+}
+
+
+#texto
+{
+    font-size: 1.1em;
+    font-family: Shannon W05;
+    font-weight: 700;;
+    padding: 2rem;
+    position: relative;
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    color: rgb(124, 187, 255);
+    width: 400px;
+    height:350px;
+    
+}
+#texto2
+{
+    font-size: 1.1em;
+    font-family: Shannon W05;
+    font-weight: 700;;
+    padding: 2rem;
+    position: relative;
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    color: rgb(124, 187, 255);
+    width: 400px;
+    height:250x;
+    margin-left: 250px;
+}
+
+#info
+{
+    
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#imgText
+{
+  margin-left: 150px;
+  max-width: 100%;
+  height: 330px;  
+}
+
+
+#imgText2
+{
+    max-width: 100%;
+  height: 330px;  
+}
